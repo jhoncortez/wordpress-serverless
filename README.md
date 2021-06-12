@@ -1,5 +1,5 @@
-# DEMO
-https://portfolio.ideastudioweb.com/
+# DEMO - PRUEBA HOME JONATHAN CORTES
+Link demo: https://portfolio.ideastudioweb.com/
 
 esta primera versión del sitio es solo para fines de demostración
 
