@@ -6,7 +6,7 @@ esta primera versión del sitio es solo para fines de demostración
 # wordpress-serverless LOOPER ART
 * INSTALACIÓN MANUAL
 1. bajar el zip del proyecto o clonar con git
-2. descromprimir y extraer la carpeta wp-backend y el zip bd.zip
+2. descromprimir y extraer la carpeta wpbackend y el zip bd.zip
 3. subir los archivos de la carpeta wp-backend al servidor
 4. configurar e importar la bd con phpmyadmin en cpanel
 
