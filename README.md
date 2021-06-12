@@ -1,3 +1,8 @@
+# DEMO
+https://portfolio.ideastudioweb.com/
+
+esta primera versión del sitio es solo para fines de demostración
+
 # wordpress-serverless LOOPER ART
 * INSTALACIÓN MANUAL
 1. bajar el zip del proyecto o clonar con git
@@ -50,3 +55,8 @@ se desarrollaron diversos componentes para la funcionalidad y visualizacion del 
 cuenta con algunos efectos construidos con las utilidades que proporciona TAILWIND ( transiciones, transforms, sombras, scales, rotates)
 
 Este proyecto incialmente se desarrollaria usando WORDPRESSS como servicio backend y FRONTITY (basado en react) como servicio frontend el cual se comunicarian por medio de la apirest de wordpress para mostrar la informacion en el front end mejorando las cargas y experiencias de navegación, asi que se continuara en futuras versiones de esta página.
+
+# DEMO
+puede ver la página funcionando en linea en el subdominio de ideastudioweb.com 
+
+Demo: https://portfolio.ideastudioweb.com/ 
