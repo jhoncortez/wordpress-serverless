@@ -1,0 +1,35 @@
+version: "3.7"
+
+services:
+    serless_mysql_db:
+        image: mysql:5.7
+        container_name: serless_mysql_db
+        volumes:
+            - db_data:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: somewordpress
+            MYSQL_DATABASE: serless_wp_db
+            MYSQL_USER: wordpress
+            MYSQL_PASSWORD: wordpress
+        
+    serless_wp_backnd:
+        depends_on: 
+            - serless_mysql_db
+        image: wordpress:latest
+        container_name: serless_wp_backnd
+        ports: 
+            - "8080:80"
+        restart: always
+        
+        volumes:
+            - ./.config/php.conf.ini:/usr/local/etc/php/conf.d/php.ini
+            - ./src:/var/www/html/
+        environment:
+            WORDPRESS_DB_HOST: serless_mysql_db:3306
+            WORDPRESS_DB_USER: wordpress
+            WORDPRESS_DB_PASSWORD: wordpress
+            WORDPRESS_DB_NAME: serless_wp_db
+
+volumes:
+    db_data: {}
